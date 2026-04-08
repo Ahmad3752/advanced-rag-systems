@@ -1,0 +1,16 @@
+langchain
+langchain-openai  # For OpenAI API; free alternative: use langchain-huggingface with local models
+langchain-community
+langchain-core
+langchain-text-splitters
+langgraph
+pydantic
+python-dotenv
+tavily-python  # Free tier available
+requests
+numpy
+
+# Free alternatives:
+# For embeddings: sentence-transformers (pip install sentence-transformers)
+# For LLM: transformers + accelerate (for local models like Llama)
+# For vector store: chromadb or faiss-cpu (faiss is already included via langchain-community)
